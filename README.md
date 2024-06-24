@@ -101,3 +101,29 @@ See as an example below
 
 This project is licensed under the MIT License.
 
+# Security Notice
+
+**Important: Use Developer Accounts Only**
+When interacting with this project, it is crucial to use only developer accounts in Metamask and never use real money or accounts containing valuable assets. This project is intended for development and testing purposes only, and it may not be secure enough for handling real funds.
+
+## Recommendations:
+
+ **Create a Separate Metamask Account for Development**:
+ 
+## Set up a new Metamask account specifically for development and testing. This ensures that your real assets are not at risk.
+
+**Use Local or Test Networks**: Deploy and test the smart contracts on local development networks (like Ganache) or public testnets (like Rinkeby or Kovan). These environments are designed for safe development and testing, and they use test Ether, which has no real-world value.
+
+
+**Never Share Private Keys**: Ensure that you never share your private keys or seed phrases. Always keep them secure and confidential.
+
+**Audit and Review Code**: Before deploying any smart contract to the main Ethereum network (mainnet), have the code thoroughly reviewed and audited by experienced developers and/or professional auditors.
+
+**Stay Updated**: Keep your development tools, dependencies, and libraries updated to incorporate the latest security patches and improvements.
+
+
+
+
+
+
+
