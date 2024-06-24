@@ -123,7 +123,7 @@ When interacting with this project, it is crucial to use only developer accounts
  
 ## Set up a new Metamask account specifically for development and testing. This ensures that your real assets are not at risk.
 
-**Use Local or Test Networks**: Deploy and test the smart contracts on local development networks (like Ganache) or public testnets (like Rinkeby or Kovan). These environments are designed for safe development and testing, and they use test Ether, which has no real-world value.
+**Use Local or Test Networks**: Deploy and test the smart contracts on local development networks (like Ganache) or public testnets (like Sepolia). These environments are designed for safe development and testing, and they use test Ether, which has no real-world value.
 
 
 **Never Share Private Keys**: Ensure that you never share your private keys or seed phrases. Always keep them secure and confidential.
