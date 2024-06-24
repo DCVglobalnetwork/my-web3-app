@@ -63,21 +63,32 @@ B. Copy of your ABI
 
 
  Install dependencies:
-    ```sh
+ 
+   
     npm init -y
-    ```
+    
+  
+    
+Web3.js
 
-    ```sh
+    
     npm install web3
-    ```
 
-    ```sh
+    
+HTTP-SERVER
+
+    
     npm install -g http-server
-    ```
+    
 
-    ```sh
+    
+Start the server   
+
+
+    
     http-server src
-    ```
+  
+    
 Open your browser and navigate to http://localhost:8080 (or the port provided by http-server).
 
 ## Interact with the Contract
