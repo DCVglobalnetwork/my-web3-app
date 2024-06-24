@@ -8,48 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const web3 = new Web3(window.ethereum);
     let account;
 
-    const contractABI = [
-        {
-            "inputs": [
-                {
-                    "internalType": "string",
-                    "name": "newValue",
-                    "type": "string"
-                }
-            ],
-            "name": "setValue",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": false,
-                    "internalType": "string",
-                    "name": "newValue",
-                    "type": "string"
-                }
-            ],
-            "name": "ValueChanged",
-            "type": "event"
-        },
-        {
-            "inputs": [],
-            "name": "getValue",
-            "outputs": [
-                {
-                    "internalType": "string",
-                    "name": "",
-                    "type": "string"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        }
-    ];
-    const contractAddress = '0x22db2e82983112aa2a1628a31b5305bec847bb00';
+    const contractABI = [/ * ABI Please place your ABI here */];
+    const contractAddress = '0x00 Place your contract address here';
     const myContract = new web3.eth.Contract(contractABI, contractAddress);
 
     const connectButton = document.getElementById('connectButton');
