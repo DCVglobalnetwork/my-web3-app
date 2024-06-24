@@ -94,9 +94,10 @@ See as an example below
 
 ## Usage
 
-- `setValue(string newValue)` - Set a new value (only the owner can call this function).
+- `setValue(string newValue)` - Set a new value.
 - `getValue()` - Get the stored value.
 
 ## License
 
 This project is licensed under the MIT License.
+
