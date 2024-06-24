@@ -20,7 +20,7 @@ http-server
 
 ### Installation
 
-1. Clone the repository:
+ Clone the repository:
     ```sh
     git clone https://github.com/DCVglobalnetwork/my-web3-app.git
     cd my-web3-app
@@ -62,7 +62,7 @@ B. Copy of your ABI
 ![image](https://github.com/DCVglobalnetwork/my-web3-app/assets/105791829/e5175655-b6a5-49ab-9307-62e9dbcb0a30)
 
 
-3. Install dependencies:
+ Install dependencies:
     ```sh
     npm init -y
     ```
