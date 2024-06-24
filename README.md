@@ -40,15 +40,15 @@ Open Remix.
 Create a new file SimpleStorage.sol and paste the above Solidity code.
 Compile the contract.
 Deploy the contract using the provided JavaScript VM or connect to an Ethereum test network using MetaMask.
-Get the Contract Address and ABI
+# Get the Contract Address and ABI
 
-After deploying the contract, Remix will display the deployed contract's address and ABI (Application Binary Interface). You will need these for your web3 application.
+# After deploying the contract, Remix will display the deployed contract's address and ABI (Application Binary Interface). You will need these for your web3 application.
 
-The ABI can be found in the "Compilation Details" or directly in Remix's sidebar after deploying the contract.
+# The ABI can be found in the "Compilation Details" or directly in Remix's sidebar after deploying the contract.
 The contract address will be shown in the "Deployed Contracts" section.
 Update the Web3 Application
 
-Replace /* ABI array */ and 0xYourContractAddress in the src/app.js file with the actual ABI and address from Remix.
+# Replace /* ABI array */ and 0xYourContractAddress in the src/app.js file with the actual ABI and address from Remix.
 
 See as an example below
 
